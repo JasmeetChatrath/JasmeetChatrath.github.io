@@ -1,0 +1,17 @@
+body{
+  background-color: #cccccc;
+  color: 191919;
+  font-family: Papyrus, fantasy;
+  padding: 20px;
+}
+
+#title{
+  font-size: 30px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#date{
+  font-size: 10px;
+  list-style-type: none;
+}
