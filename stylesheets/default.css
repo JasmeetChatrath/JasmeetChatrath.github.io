@@ -1,0 +1,110 @@
+body{
+background-image: url("http://www.hdwallpaperscool.com/wp-content/uploads/2014/07/river-bridge-san-francisco-desktop-wallpapers.jpeg");
+font-family: Papyrus, fantasy;
+}
+
+header{
+position: relative;
+margin-right: auto;
+margin-left: auto;
+width: 100%;
+}
+
+.active{
+opacity: 0.5;
+text-decoration: underline;
+}
+
+nav{
+position: relative;
+top: -220px;
+left: 60%;
+font-size: 25px;
+}
+
+ul{
+position: relative;
+left: -400px;
+top: 230px;
+}
+
+li{
+display: inline;
+padding: 10px;
+}
+
+ul li:hover{
+opacity: 0.5;
+text-decoration: underline;
+}
+
+section{
+position: relative;
+width: 70%;
+height: 500px;
+border: 2px solid black;
+float: left;
+background: #666666;
+opacity: 0.85;
+padding: 10px;
+}
+
+aside{
+width: 250px;
+height: 500px;
+border: 2px solid black;
+float: right;
+padding: 10px;
+background-color: #666666;
+opacity: 0.85;
+}
+
+.rec_box{
+position: relative;
+height: 320px;
+width: 230px;
+border: 2px solid black;
+margin-right: auto;
+margin-left: auto;
+top: 160px;
+padding: 5px;
+font-size: 13px;
+}
+
+table{
+position: relative;
+margin-right: auto;
+margin-left: auto;
+bottom: 325px;
+}
+
+td img{
+border: 2px solid black;
+border-radius: 10px;
+height: 50px;
+width: 50px;
+margin: 5px;
+}
+
+footer{
+clear: both;
+position: fixed;
+bottom: 0px;
+border: 2px black;
+background-color: #3E193E;
+height: 20px;
+width: 100%;
+margin-right: auto;
+margin-right: auto;
+}
+
+#title{
+  font-size: 30px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#date{
+  font-size: 10px;
+  list-style-type: none;
+}
