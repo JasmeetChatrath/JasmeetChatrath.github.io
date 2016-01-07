@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>Week 4 Technical Blog</title>
+  </head>
+  <body>
+    <div id="title">
+      <li>Arrays and Hashes</li>
+    </div>
+    <div id="date">
+      <li>January 2, 2016</li>
+    </div>
+    <div id="body">
+      <h3>Arrays</h3>
+      <p>An array is a list of items stored between brackets [ ].  We set this list of items to the title of our array.  An example of an array is: <br>
+      <code>my_array = ["I", "love", "Ruby", 5]</code> <br> You can even have an array within an array which is called a multidimensional array.  <br>
+      <code>multidimensional _array = [[0, 4, 100],["five", "ten", "three"], ["red","blue","green"]]</code><br>The values in our list are assigned to numbers starting at 0.  For example, in our my_array example we would use 1 to call our “love” string.  To call that value we would enter the following code:<br>
+      <code>my_array [1]</code><br>
+      This is called access by index.  To call a value in out multidimensional array we use our index values as well.  To call “three” for example we would enter the following code:
+      <code>multidimensional _array[1][2]</code>
+     </p>
+      <h3>Hash</h3>
+      <p>A hash is a collection of key-value pairs. They are assigned by using "=>" and by setting it to a title.  An example of a hash follows:<br>
+        <code>my_info = {
+      "first_name" => "Jasmeet",
+      "last_name" => "Chatrath",
+      "age" => 26
+        }
+      </code><br>To retrieve data in our hash we use the key value.  To print “Chatrath” for example we would enter the following:<br>
+      <code>puts my_info["last_name"]</code></p>
+      <h3>When to use one vs the other</h3>
+      <p>Ex: We would want to use an array when we have a list of items such as children’s names<br>
+        <code>names = ["Jill", "Liz", "Henry", "Anna"]</code><br>
+        We want to use a hash when collecting a set of key value pairs such as favorite items of each child.<br><code>favorite_items ={
+  "Jill" => "book",
+  "Liz" => "xbox",
+  "Henry" => "car",
+  "Anna" => "makeup"
+}
+</code></p>
+      </div>
+  </body>
+  <hr>
+</html>
